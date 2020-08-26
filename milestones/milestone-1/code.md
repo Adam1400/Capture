@@ -10,3 +10,4 @@
 * Download IDE (Visual Studio Code) 
 * Download Python3 (Latest version)
 * Watch this video to learn basics: https://www.youtube.com/watch?v=UmljXZIypDc
+
