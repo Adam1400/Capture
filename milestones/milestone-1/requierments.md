@@ -3,7 +3,7 @@
 
 ## Role: Project Manager - Requierments
 
-### Goal: Version control and django setup basics
+### Goal: Version control / django setup basics / Establish management
 
 * Setup Github account
 * Download Github Desktop
@@ -11,4 +11,9 @@
 * Download IDE (Visual Studio Code) 
 * Download Python3 (Latest version)
 * Watch this video to learn basics: https://www.youtube.com/watch?v=UmljXZIypDc
+* Business proposition
+* Project scope & time constraints
+* Establish communication channels
+* Sprint Planning meetings
+
 

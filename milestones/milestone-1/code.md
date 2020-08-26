@@ -2,7 +2,7 @@
 
 ## Role: Programmer - Code
 
-### Goal: Version control and django setup basics
+### Goal: Version control / django setup basics / hello world
 
 * Setup Github account
 * Download Github Desktop
@@ -10,4 +10,6 @@
 * Download IDE (Visual Studio Code) 
 * Download Python3 (Latest version)
 * Watch this video to learn basics: https://www.youtube.com/watch?v=UmljXZIypDc
+* get app running "Hello world"
+
 
