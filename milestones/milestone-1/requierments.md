@@ -1,8 +1,13 @@
-Milestone 1. Project Plan
-Role: Programmer - Code
 
-Goal: Version control
+# Milestone 1. Project Plan
 
-Setup Github account
-Setup Github Pages repository
-Decide how to publish your project docs
+## Role: Project Manager - Requierments
+
+### Goal: Version control and django setup basics
+
+* Setup Github account
+* Download Github Desktop
+* Clone main repo
+* Download IDE (Visual Studio Code) 
+* Download Python3 (Latest version)
+* Watch this video to learn basics: https://www.youtube.com/watch?v=UmljXZIypDc

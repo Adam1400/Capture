@@ -2,7 +2,7 @@
 
 ## Role: Programmer - Code
 
-### Goal: Version control
+### Goal: Version control and django setup basics
 
 * Setup Github account
 * Download Github Desktop
