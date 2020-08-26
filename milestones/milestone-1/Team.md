@@ -1,7 +1,7 @@
 
 # Milestone 1. Project Plan
 
-## Role: Project Manager - Requierments
+### Role: Project Manager - Requierments
 
 ### Goal: Version control and django setup basics
 
@@ -13,7 +13,7 @@
 * Watch this video to learn basics: https://www.youtube.com/watch?v=UmljXZIypDc
 
 
-## Role: Designer - Design
+### Role: Designer - Design
 
 ### Goal: Version control and django setup basics
 
@@ -25,7 +25,7 @@
 * Watch this video to learn basics: https://www.youtube.com/watch?v=UmljXZIypDc
 
 
-## Role: Programmer - Code
+### Role: Programmer - Code
 
 ### Goal: Version control and django setup basics
 
@@ -37,7 +37,7 @@
 * Watch this video to learn basics: https://www.youtube.com/watch?v=UmljXZIypDc
 
 
-## Role: QA Engineer - Test
+### Role: QA Engineer - Test
 
 ### Goal: Version control and django setup basics
 
