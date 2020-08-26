@@ -2,7 +2,6 @@
 # Milestone 1. Project Plan
 
 
-
 ### Role: Project Manager - Requierments
 
 #### Goal: Version control and django setup basics
@@ -14,7 +13,7 @@
 * Download Python3 (Latest version)
 * Watch this video to learn basics: https://www.youtube.com/watch?v=UmljXZIypDc
 
-
+---
 
 ### Role: Designer - Design
 
@@ -27,7 +26,7 @@
 * Download Python3 (Latest version)
 * Watch this video to learn basics: https://www.youtube.com/watch?v=UmljXZIypDc
 
-
+---
 
 ### Role: Programmer - Code
 
@@ -40,7 +39,7 @@
 * Download Python3 (Latest version)
 * Watch this video to learn basics: https://www.youtube.com/watch?v=UmljXZIypDc
 
-
+---
 
 ### Role: QA Engineer - Test
 
