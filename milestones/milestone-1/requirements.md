@@ -1,7 +1,7 @@
 
 # Milestone 1. Project Plan
 
-## Role: Project Manager - Requierments
+## Role: Project Manager - Requirements
 
 ### Goal: Version control / django setup basics / Establish management
 
@@ -26,28 +26,12 @@
 , [Test.md](test.md)
 
 
-
 * File: milestone-1/requirements.md
 
 * URL: https://github.com/Adam1400/cs350/blob/master/milestones/milestone-1/requirements.md
 
 
-### Milestone 1. Project Plan Complete
-
-
-
-Role: Project Manager - Requirements
-
-Goal: Project Charter
-
-* Business proposition
-* Project scope & budget
-* Client communication
-* Sprint Planning meetings
-
-
-
-## Book Builder - Project Charter
+## Book Builder - Capture
 
 Book Builder is a software application that runs in the cloud and on mobile devices. 
 Registered users can author materials for books being written.  Authors can create new
@@ -59,12 +43,6 @@ The software presents the chapters under development within an editorial process
 
 
 ### Business proposition
-
-Author Value
-
-Create the most productive tool for authors to write non-fiction books. Apply advanced
-technology to allow authors to focus on the creative content, rather than the mechanical
-process of computer and administrative work.
 
 Business Value
 
@@ -125,11 +103,6 @@ User Experience
 Author can create book projects, outlines, chapters, text, images, cover artwork, and other
 items needed for the book.
 
-Kindle Book
-
-At any time an HTML file and the assets needed can be generated from the content that the
-author has created.  This HTML file can be directly uploaded to Amanzon as a Kindle book.
-
 Reading Room
 
 The ebook version of the content is displayed on the Book Builder website within the 
@@ -138,20 +111,6 @@ reader an alternative to the Kindle book format.
 
 
 ### Teamwork
-
-Development Team
-
-The key to great teamwork is great communication.  This project is done by a mythical 
-team of engineers:
-
-* Mark Seaman - Technical lead
-* Hank Pym - Back-end developer
-* Bruce Banner - Front-end developer
-* Tony Start - Project manager
-
-Each person is given a role that matches their expertise. For each Milestone developers will
-commit to the features that they can realistically accomplish in the two-week 
-Development Sprint.
 
 Communication Plan
 
@@ -176,8 +135,7 @@ later with each other when they see opportunities.
 
 Team Coordination
 
-Tony will lead the meetings as "Scrum Master".  His role as Project Manager makes him
-the right person to lead the requirements effort.
+The person with the Requirement Role will be in charge of 
 
 
 ### Scrum
