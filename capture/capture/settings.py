@@ -10,7 +10,6 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.1/ref/settings/
 """
 
-import django_heroku
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -26,7 +25,7 @@ SECRET_KEY = '84m1sw@yh9&*z_1!u*=)d4i!uz@19sm3t%2c4bwbg5v*dy%ihj'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['https://capture350.herokuapp.com', '127.0.0.1']
+ALLOWED_HOSTS = ['capture350.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
@@ -122,5 +121,3 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 STATIC_URL = '/static/'
 
-# set django heroku 
-django_heroku.settings(locals())
