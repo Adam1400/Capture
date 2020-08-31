@@ -1,1 +1,1 @@
-web: gunicorn capture.wsgi
+web: gunicorn capture.wsgi --log-file -
