@@ -15,6 +15,7 @@ Including another URLconf
 """
 from django.http import HttpResponse
 from django.urls import path
+from capture.capture import urls as app_urls
 
 
 def home_page_view(request):
