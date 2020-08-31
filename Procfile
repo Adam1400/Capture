@@ -1,1 +1,0 @@
-web: gunicorn capture.capture.wsgi
