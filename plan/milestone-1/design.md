@@ -36,5 +36,23 @@
   * Everyone is set up
 * ~~Decide on App deployment~~
   * Hosting through Heroku (see readme)
+  
+### VS CODE
+Going with vs code because it handles several languages at once. We will be ballancing Python, html, css, and perhaps JS all in one app. To meet our needs we needed an IDE that can handel our diverse platform. VS code has git intigration, this will let us track and push our changes easily.
+
+### git bash
+VS code and git go hand and hand. Although its not requirede for VS code, having git bash will allow for better version controll intigration. Git dektop alone does not intigrade with vs code. 
+
+### DJANGO Framework
+Choosing django for its simplicity in testing and deployment. Django compared to node.js requires less overhead and better suits our needs on this project. 
+
+### GITHUB
+Using github to mannage version control. The main repo was created on my (Allen's) github page. Each member of the team was added as a contributor and cloned the master repo.
+
+### HTML / CSS / JAVASCRIPT
+Using the standard web dev platorm through django. However, i'm conidering using PUG as our view engine... it might make things more consistant accross langiages (python in particular). Give update on this in week 2.
+
+### HOSTING
+We are using heroku as I was already firmilar with this platform. At this point in time the app is deployed and hosted through my heroku account (Allen). In the future we may want to all be made contributors on heroku. Will update this by week 2. 
 
 
