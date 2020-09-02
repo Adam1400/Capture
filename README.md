@@ -2,13 +2,14 @@
 
 ### Managed by: Allen Adams, Jessica Torres, Jessica Herold, Chris Gaona
 
-[Capture](https://capture350.herokuapp.com/)
+## [Capture](https://capture350.herokuapp.com/)
 
 
 #### Capture is a photo media galery similar to instagram or google photos
 
 * Built with Python/ Django
 * supplemented with HTML/CSS
+* Hosted on heroku
 
 ---
 ### Plan
