@@ -64,12 +64,12 @@ Use this video as a resorce as well... this is where I learned it https://www.yo
  
 
 ### GITHUB
-Using github to mannage version control. The main repo was created on my (Allen's) github page. Each member of the team was added as a contributor and cloned the master repo.
+Using github to mannage version control. The [main repo](https://github.com/Adam1400/cs350) was created on my (Allen's) github page. Each member of the team was added as a contributor and cloned the master repo.
 
 ### HTML / CSS / JAVASCRIPT
 Using the standard web dev platorm through django. However, i'm conidering using PUG as our view engine... it might make things more consistant accross langiages (python in particular). Give update on this in week 2.
 
 ### HOSTING
-We are using heroku as I was already firmilar with this platform. At this point in time the app is deployed and hosted through my heroku account (Allen). In the future we may want to all be made contributors on heroku. Will update this by week 2. 
+We are using heroku as I was already firmilar with this platform. At this point in time the app is [deployed](https://capture350.herokuapp.com/) and hosted through my heroku account (Allen). In the future we may want to all be made contributors on heroku. Will update this by week 2. 
 
 
