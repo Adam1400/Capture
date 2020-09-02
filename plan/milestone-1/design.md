@@ -18,7 +18,7 @@
 ---
 ### UPDATE | 9-4-2020
 
-#### complete
+#### (ALL) complete
 * ~~Setup Github account~~
 * ~~Download Github Desktop~~
 * ~~Clone main repo~~
