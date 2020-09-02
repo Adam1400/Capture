@@ -59,6 +59,8 @@ Choosing django for its simplicity in testing and deployment. Django compared to
  * to view in browser go to --> localhost:8000 
  * in comandline press CTRL + C to exit testing 
  
+this process is tricky the first couple of times... so if you think you messed up.... MESSAGE ME before commiting changes to github! :]
+ 
 
 ### GITHUB
 Using github to mannage version control. The main repo was created on my (Allen's) github page. Each member of the team was added as a contributor and cloned the master repo.
