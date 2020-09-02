@@ -51,11 +51,11 @@ Choosing django for its simplicity in testing and deployment. Django compared to
 * to set up a python ENV (enviorment)...
  * install latest version of python (3.7)
  * in command-line change current directory to capture directory (in terminal --> cd documents/github/cs350/capture)
- * to create envirorment type --> python -m venv env
+ * to create envirorment, type --> python -m venv env
  * install django, type --> python install django 
  * IN FUTURE you may need to install other things.... See [dependencies](https://github.com/Adam1400/cs350/blob/master/capture/requirements.txt) for further installs and enviornment set up.
  * when testing or before writing code activate env, type --> env\Scripts\activate.bat
- * then to test page in browser type (still in capture directory) --> python manage.py runserver
+ * then to test page in browser, type (still in capture directory) --> python manage.py runserver
  * to view in browser go to --> localhost:8000 
  * in comandline press CTRL + C to exit testing 
  
