@@ -48,7 +48,7 @@ Choosing django for its simplicity in testing and deployment. Django compared to
 
 #### Overhead
 * python envnviorment IS REQUIRED for local testing and is not included in repo (becuase its too big)
-* to set up a python ENV (enviorment)
+* to set up a python ENV (enviorment)...
  * install latest version of python (3.7)
  * in command-line change current directory to capture directory (in terminal --> cd documents/github/cs350/capture)
  * to create envirorment type --> python -m venv env
