@@ -40,7 +40,7 @@
 ### VS CODE
 Going with vs code because it handles several languages at once. We will be ballancing Python, html, css, and perhaps JS all in one app. To meet our needs we needed an IDE that can handel our diverse platform. VS code has git intigration, this will let us track and push our changes easily.
 
-### git bash
+### git bash (optional)
 VS code and git go hand and hand. Although its not requirede for VS code, having git bash will allow for better version controll intigration. Git dektop alone does not intigrade with vs code. 
 
 ### DJANGO Framework
