@@ -60,6 +60,7 @@ Choosing django for its simplicity in testing and deployment. Django compared to
  * in comandline press CTRL + C to exit testing 
  
 this process is tricky the first couple of times... so if you think you messed up.... MESSAGE ME before commiting changes to github! :]
+Use this video as a resorce as well... this is where I learned it https://www.youtube.com/watch?v=APOPm01BVrk&t=2s
  
 
 ### GITHUB
