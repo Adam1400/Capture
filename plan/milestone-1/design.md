@@ -45,7 +45,8 @@ VS code and git go hand and hand. Although its not requirede for VS code, having
 
 ### DJANGO Framework
 Choosing django for its simplicity in testing and deployment. Django compared to node.js requires less overhead and better suits our needs on this project.
-Overhead
+
+#### Overhead
 * python envnviorment IS REQUIRED for local testing and is not included in repo (becuase its too big)
 * to set up a python ENV (enviorment)
  * install latest version of python (3.7)
