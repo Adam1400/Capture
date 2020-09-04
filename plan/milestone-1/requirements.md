@@ -26,39 +26,23 @@
 , [Test.md](test.md)
 
 
-* File: milestone-1/requirements.md
+* File: plan/milestone-1/requirements.md
 
 * URL: https://github.com/Adam1400/cs350/blob/master/milestones/milestone-1/requirements.md
 
 
-## Book Builder - Capture
+## Capture
 
-Book Builder is a software application that runs in the cloud and on mobile devices. 
-Registered users can author materials for books being written.  Authors can create new
-book projects, chapters, emedded images, and front matter.  
+Capture is an application which will allow users to upload pictures and interact with those of others.
 
-There are also tools that support the creative process for the author.  A complete content
-outline can be used to generate the Table of Contents and all of the chapter structure. 
-The software presents the chapters under development within an editorial process worflow.
-
+Registered users do not necessarily need to follow the people they like photos from as this application will be based on a public forum. 
+This allows for less separation and more diversity for our users.
 
 ### Business proposition
 
 Business Value
 
-Create application software that is capable of supporting a comercial publishing operation.
-When this project is complete a business plan we be developed to get paying customers for
-Book Builder.  The desire is to have an established company buy the Book Builder product.
-
-Teaching Value
-
-Book Builder will use the best practices in software engineering to teach students how
-projects should be done.  This is include the entire software lifecyle, developer roles, 
-and milestones.  The project has been divided into a grid of 28 cells 
-(7 milestones x 4 roles).
-Each cell in the matrix will have written documentation that can be a used as an example 
-for other projects.
-
+This application will be capable of supporting multiple users at once, which will be key when the number of users begins to increase exponentially.
 
 ### Project scope & budget
 
@@ -71,53 +55,28 @@ Book Builder Priorities
 
 1. Schedule - This entire must be completed by December 4, 2020 in order to be used for the
 UNC classes.
-2. Money - This project will be the individual work of Mark Seaman so no actual money will
-be spent.  However, the budget can be measured in opportunity costs.  This project will
-require about 100 hours of effort since many of the product features have been created for
-other projects.  Mark's time is valued at $100/hour, making the project budget $10,000.
-3. Features - Three teirs of features will be defined. Essential features define the 
+2. Money - This project will be the team effort of Jessica Torres, Allen Adams, Jess Herold, and Chris Hogue so no actual money will
+be spent. 
+3. Features - Essential features define the 
 Minimum Viable Product. Required features mark the Minimum Desirable Project.  Desired 
 features define the Luxury Project.
 
-Note the priorities - Schedule will never move, and Money will move only to protect 
-the schedule.  Features will be adjusted throughout the milestone and must be constantly
+Features will be adjusted throughout the milestone and must be constantly
 negotiated with the client.
 
 
 #### Project Features
 
-Editorial Workflow
-
-Each chapter goes through a series of stages:
-
-* Outline - A strong outline fits into a master outline for the book.
-* Draft - Each of the bullets in the outline is expanded into prose.
-* Edit - The content is reviewed and updated for spelling, gramar, word choice, accuracy, 
-and tone.
-* Review - The content is ready to have external readers review it but remains in a
-state of refinement.
-* Published - The content is released to the public.
-
 User Experience
 
-Author can create book projects, outlines, chapters, text, images, cover artwork, and other
-items needed for the book.
-
-Reading Room
-
-The ebook version of the content is displayed on the Book Builder website within the 
-READING ROOM.  This offers a display showcase for authors to present their works and gives
-reader an alternative to the Kindle book format.
+Users of Capture will have a user sign in, commenting feature, the ability to post pictures, and like other photos.
 
 
 ### Teamwork
 
 Communication Plan
 
-The dev team is geographically distributed in the USA, Japan, and Europe.
-It is essential that developers meet up regularly over Zoom and occasionally in person.
-
-The Book Builder team will meet MWF each week at 11:00-11:30 to coordinate 
+The Capture team will meet MWF each week at 1:10-1:45 to coordinate 
 project activities.  Development work will be done outside of this meeting.
 This will serve the
 purpose of the "Scrum Daily Stand-up Meeting".
@@ -135,7 +94,7 @@ later with each other when they see opportunities.
 
 Team Coordination
 
-The person with the Requirement Role will be in charge of 
+The person with the Requirement Role will be in charge of leading the meeting and ensuring members know what they need to accomplish.
 
 
 ### Scrum
