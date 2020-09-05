@@ -1,7 +1,7 @@
 
 # Milestone 1. Project Plan
 
-## Role: QA Engineer - Test
+## Role: QA Engineer - Test - Chris Gaona
 
 ### Goal: Version control / django setup basics / Testing standards
 
@@ -16,3 +16,6 @@
 * Log issues
 * Document how to log issues
 
+# Capture - Test Plan
+
+## Level 1 - Test Plan
