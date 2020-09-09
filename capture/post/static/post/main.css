@@ -1,0 +1,28 @@
+/*css goes here*/
+nav{
+    background: rgb(240,206,86);
+    background: linear-gradient(315deg, rgba(240,206,86,1) 0%, rgba(230,79,79,1) 100%);
+}
+
+.brand-container{
+    text-align: center;
+    width: 100%;
+}
+.brand{
+    color:white}
+
+.container{
+    text-align: center;
+   
+}
+
+.post{
+    align-items: center;
+    
+}
+
+img{
+    width: 75%;
+    height: auto;
+}
+

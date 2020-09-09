@@ -32,6 +32,7 @@ ALLOWED_HOSTS = ['capture350.herokuapp.com', '127.0.0.1', 'localhost']
 # Application definition
 
 INSTALLED_APPS = [
+    'post.apps.PostConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
