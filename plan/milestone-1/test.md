@@ -2,9 +2,12 @@
 
 ## PROJECT INFO
 * [Software Project Plan - Capture](https://capture350.herokuapp.com/)
+
 * Other Roles - [Requirements.md](), [Design.md](), [Code.md](), [Test.md]()
+
 * File: Milestone-1/Test.md
-* URL: (https://github.com/Adam1400/cs350/blob/master/plan/milestone-1/test.md)
+
+* URL: https://github.com/Adam1400/cs350/blob/master/plan/milestone-1/test.md
 ## Role: QA Engineer - Test - Chris Gaona
 
 ### Goal: Version control / django setup basics / Testing standards
