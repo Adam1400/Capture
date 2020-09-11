@@ -167,8 +167,7 @@ The above test scripts cover the scope and high level direction that the testing
 take.  An example Level 4 - Test Script has been included to illustrate the kind of 
 Test Scripts that will be developed later on in the project.
 
-All five level of the testing hierarchy will be documented in the [Test Documents](../docs/TestDocs.md) area of our website.
-
+A desicion for documenting tesing for all five levels is still being decided and will be posted here once the decision is made.
 
 ### Log issues
 
