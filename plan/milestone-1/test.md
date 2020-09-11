@@ -70,7 +70,7 @@ Capture testing
 * Each Test Area is decomposed into a number of User Stories.  
 * Each User Story is defined as a User Experience (UX) that is documented in the requirements
 * A User Story Test outlines how the UX scenario will be exercised and verified
-* Examples:  User Auth UX,  Create Post UX, Create Comments UX
+* Examples:  User Account UX,  Create Post UX, Create News Feed UX
 
 #### Level 4 - Test Script
 
