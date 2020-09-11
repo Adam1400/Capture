@@ -23,7 +23,7 @@
 * Log issues
 * Document how to log issues
 
-## Book Builder - Test Plan
+## Capture - Test Plan
 
 Each level of the hierarchy produces increasing levels of detail.  Test planning should always start at the top and work down. This prevents getting lost
 in the weeds and running out of time.
@@ -33,9 +33,6 @@ testing hierarchy acts as a natural budget for how to spent that time.
 
 
 ### Testing Levels 
-
-This info is not specific to book builder but relates to test planning in general.
-
 
 #### Level 1 - Test Plan
 
