@@ -1,6 +1,7 @@
-
 # Milestone 1. Project Plan
 
+## PROJECT INFO
+* https://capture350.herokuapp.com/ - automatic! [Software Project Plan - Capture]
 ## Role: QA Engineer - Test - Chris Gaona
 
 ### Goal: Version control / django setup basics / Testing standards
