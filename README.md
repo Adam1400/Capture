@@ -13,4 +13,5 @@
 
 ### Plan
 * [Milestone 1](https://github.com/Adam1400/cs350/tree/master/plan/milestone-1)
+* [Milestone 2](https://github.com/Adam1400/cs350/tree/master/plan/milestone-2)
 
