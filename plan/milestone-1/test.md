@@ -45,7 +45,7 @@ testing hierarchy acts as a natural budget for how to spent that time.
     * Page test - This test runs on “requests” Python package and gets web pages from a live server it is used to see if pages on the internet are changing.
     * Selenium Page test - Firefox and Chrome are used to obtain pages and look for specific HTML elements.
     
-Book Builder testing
+Capture testing
 
 * Testing will be reduced because of limited time on this project.
 * Essential testing will include
@@ -70,27 +70,27 @@ Book Builder testing
 * Each Test Area is decomposed into a number of User Stories.  
 * Each User Story is defined as a User Experience (UX) that is documented in the requirements
 * A User Story Test outlines how the UX scenario will be exercised and verified
-* Examples:  Student Auth UX,  Create New Book UX, Register Student Grade UX
+* Examples:  User Auth UX,  Create Post UX, Create Comments UX
 
 #### Level 4 - Test Script
 
 * Each User Story  is decomposed into a number of User Scenarios.  
 * A Test Script outlines how the User Scenario will be exercised and verified.
 * Examples:  Student Auth UX
-    * Student can register
-    * Student can login
-    * Student can logout
+    * User can register
+    * User can login
+    * User can logout
     * Only students can see grades
 
 #### Level 5 - Test Case
 
 * Each User Scenarios  is decomposed into a number of specific features that the app implements.  
 * A Test Case outlines specific behavior to be exercised and what the expected results are.
-* Examples:  Students can register
+* Examples:  User can register
     * Successful registration
-    * Error for bad email, name, or already enrolled
-    * Student can login after registering
-    * Errors prevent student from being enrolled
+    * Error for bad email, name, password, or already have an account
+    * User can login after registering
+    * Errors prevent user from creating an account
 
 
 ## Hierarchy of Test Details
@@ -128,39 +128,38 @@ Over the course of the project we plan to spend about 250 hours testing and can 
 
 Manual Testing - live user clicking buttons
 
-Test Cases - Student Auth
+Test Cases - User Auth
 
 * Scenario 1 - Guest Access
-    * Guests can see system view with Welcome
+    * Guests can see system and view specific content
     * Not logged in displayed
-    * Menu has links to Authors, Books, Chapters, Review
+    * Guest cannot comment and see other peoples post
+    * Menu has links to register, log in, and home page
+    * Menu has a search bar
 
-* Scenario 2 - Register New Author
-    * Author can register
+* Scenario 2 - Register New User
+    * User can register
     * Error for used email
     * New users are created
-    * Dropping a Author removes the user record
+    * Dropping a user account removes the user record
     * Existing user records are used
 
-* Scenario 3 - Author Access
-    * Author can log in successfully
-    * Author can see course view with Student Settings and Welcome
-    * Login displayed
+* Scenario 3 - User Access
+    * User can log in successfully
+    * User can see their news feed and access content
+    * Account name displayed
     * Logout menu item
-    * Menu has links to Authors, Books, Chapters, Review
-    * Books shows all current books
-    * Chapters shows all current chapters
-    * Docs shows all current docs
-    * Dropped Authors can not log in
-
-* Scenario 4 - Reader Access
-    * Private books require readers to register
-    * A user access list shows content for specific readers
+    * Menu has links to Home Page, Account Page, Recent Activity, and Add Content
+    * Home Page takes users to news feed
+    * Account Page shows users their account info and all their posted content
+    * Recent Activity shows users recent content that they have interacted with
+    * Add Content lets users add content for other users to see
+    * Dropped users can not log in
 
 
 ### Setup structure for testing
 
-The book builder project will start by doing manual testing only.  This means for the
+The capture project will start by doing manual testing only.  This means for the
 first two milestones we do not need to have any specific infrastructure for automated
 testing.
 
@@ -173,10 +172,7 @@ All five level of the testing hierarchy will be documented in the [Test Document
 
 ### Log issues
 
-The Github issues tracking system will be used to track all known items and remaining
-work.
-
-The Product Backlog will be an Issue in the BookBuilder project.  It will track the 
+The Product Backlog will be an Issue in the Capture project.  It will track the 
 priorities for the current Sprint.  The functionality that is expected for the next
 milestone will be documented in the Product Backlog.
 
