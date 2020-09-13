@@ -76,11 +76,11 @@ Capture testing
 
 * Each User Story  is decomposed into a number of User Scenarios.  
 * A Test Script outlines how the User Scenario will be exercised and verified.
-* Examples:  Student Auth UX
+* Examples:  User UX
     * User can register
     * User can login
     * User can logout
-    * Only students can see grades
+    * Only users can interact with content and all the features
 
 #### Level 5 - Test Case
 
