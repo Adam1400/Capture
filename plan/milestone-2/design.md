@@ -1,17 +1,37 @@
-# Milestone 1. Project Plan
+# Milestone 2. Technology Proven
 
 ## Role: Designer - Design
 
-### Goal: Version control / django setup basics / Determine hosting/ technologies
+### Goal: Software Architecture
 
-* Setup Github account
-* Download Github Desktop
-* Clone main repo
-* Download IDE (Visual Studio Code) 
-* Download Python3 (Latest version)
-* Watch this video to learn basics: https://www.youtube.com/watch?v=UmljXZIypDc
-* Select Development Tools
-* Infrastructure - Frameworks & Tools
-* Setup Guide
-* Decide on App deployment
+* Apps = Data + Views
+* Data models
+* Views and wireframes
 
+## PROJECT INFO
+
+
+* Other Roles - [Requirements.md](Requirements.md)
+, [Design.md](Design.md)
+, [Code.md](Code.md)
+, [Test.md](Test.md)
+
+
+
+* File: milestone-2/design.md
+
+* URL: https://github.com/Adam1400/cs350/blob/master/plan/milestone-2/design.md
+
+
+
+## Book Builder - Software Architecture
+
+
+
+### Apps = Data + Views
+
+
+### Data models
+
+
+### Views and wireframes
