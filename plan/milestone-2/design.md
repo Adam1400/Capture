@@ -26,7 +26,44 @@
 
 ## Capture - Software Architecture
 
+### User Stories
+User stories are short, simple descriptions of a product feature told from the perspective of a potential or existing user who wants that feature.
+
+* As a mom, I want to upload my pictures so that I can keep them for memories.
+
+* As a college student, I want to see posts from my friends so I can keep up with their lives.
+
 ## Data models
+
+* User
+    - username
+    - profile*
+* Profile
+    - name
+    - username
+    - bio
+    - edit profile
+    - posts*
+* Posts
+    - username
+    - image
+    - caption
+    - comment
+    - like
+* Feed
+    - posts*
+    - order
+
+## App Views
+
+* User
+    - register user
+    - user admin
+* Posts
+    - upload image
+    - delete image
+    - edit post
+    - view posts
 
 ### UML Information
 
@@ -39,16 +76,4 @@ A class has three parts:
 - operations or methods at the bottom 
 In a large system with many related classes, classes are grouped together to create class diagrams. Different relationships between classes are shown by different types of arrows.
 
-
-## Apps = Data + Views
-
-### User Stories
-User stories are short, simple descriptions of a product feature told from the perspective of a potential or existing user who wants that feature.
-
-* As a mom, I want to upload my pictures so that I can keep them for memories.
-
-* As a college student, I want to see posts from my friends so I can keep up with their lives.
-
-
-
-## Views and wireframes
+## Wireframes
