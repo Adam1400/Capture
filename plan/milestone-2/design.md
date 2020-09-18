@@ -11,7 +11,7 @@
 ## PROJECT INFO
 
 
-* Other Roles - [Requirements.md](Requirements.md)
+* Other Roles - [Requirements.md](https://github.com/Adam1400/cs350/blob/master/plan/milestone-2/code.md)
 , [Design.md](Design.md)
 , [Code.md](Code.md)
 , [Test.md](Test.md)
