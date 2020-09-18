@@ -11,10 +11,10 @@
 ## PROJECT INFO
 
 
-* Other Roles - [Requirements.md](https://github.com/Adam1400/cs350/blob/master/plan/milestone-2/code.md)
-, [Design.md](Design.md)
-, [Code.md](Code.md)
-, [Test.md](Test.md)
+* Other Roles - [Requirements.md](https://github.com/Adam1400/cs350/blob/master/plan/milestone-2/requirements.md)
+, [Design.md](https://github.com/Adam1400/cs350/blob/master/plan/milestone-2/design.md)
+, [Code.md](https://github.com/Adam1400/cs350/blob/master/plan/milestone-2/code.md)
+, [Test.md](https://github.com/Adam1400/cs350/blob/master/plan/milestone-2/test.md)
 
 
 
@@ -25,6 +25,8 @@
 
 
 ## Capture - Software Architecture
+
+UML Information
 
 
 
