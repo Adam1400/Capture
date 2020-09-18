@@ -26,7 +26,9 @@
 
 ## Capture - Software Architecture
 
-UML Information
+## Data models
+
+### UML Information
 
 UML (Unified Modeling Language) is a software engineering language that was developed to create a standard way of visualizing the design of a system. UML Class Diagrams describe the structure of a system by showing the system’s classes and how they relate to one another.
 
@@ -38,9 +40,9 @@ A class has three parts:
 In a large system with many related classes, classes are grouped together to create class diagrams. Different relationships between classes are shown by different types of arrows.
 
 
-### Apps = Data + Views
+## Apps = Data + Views
 
-## User Stories
+### User Stories
 User stories are short, simple descriptions of a product feature told from the perspective of a potential or existing user who wants that feature.
 
 * As a mom, I want to upload my pictures so that I can keep them for memories.
@@ -48,7 +50,5 @@ User stories are short, simple descriptions of a product feature told from the p
 * As a college student, I want to see posts from my friends so I can keep up with their lives.
 
 
-### Data models
 
-
-### Views and wireframes
+## Views and wireframes
