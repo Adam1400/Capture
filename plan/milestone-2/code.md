@@ -11,7 +11,7 @@
 * Establish and make preperations for "Post" page
 * make sure everything still runs on heroku
 
-### UPDATE | 9-11-2020
+### UPDATE | 9-18-2020
 
 #### (ALL) complete
 * ~~Populate main capture page~~
