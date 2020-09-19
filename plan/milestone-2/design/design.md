@@ -78,7 +78,7 @@ A class has three parts:
 
 In a large system with many related classes, classes are grouped together to create class diagrams. Different relationships between classes are shown by different types of arrows.
 
-*Benefits of class diagrams
+Benefits of class diagrams
 
 * Illustrate data models for information systems, no matter how simple or complex.
 * Better understand the general overview of the schematics of an application.
