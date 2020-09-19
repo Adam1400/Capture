@@ -76,4 +76,9 @@ A class has three parts:
 - operations or methods at the bottom 
 In a large system with many related classes, classes are grouped together to create class diagrams. Different relationships between classes are shown by different types of arrows.
 
-## Wireframes
+## Wireframes and Diagrams
+
+Navigate to
+
+
+
