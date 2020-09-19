@@ -70,10 +70,12 @@ User stories are short, simple descriptions of a product feature told from the p
 UML (Unified Modeling Language) is a software engineering language that was developed to create a standard way of visualizing the design of a system. UML Class Diagrams describe the structure of a system by showing the system’s classes and how they relate to one another.
 
 Class diagrams are the main building block of any object-oriented solution. It shows the classes in a system, attributes, and operations of each class and the relationship between each class.
+
 A class has three parts: 
 - name at the top
 - attributes in the middle 
 - operations or methods at the bottom 
+
 In a large system with many related classes, classes are grouped together to create class diagrams. Different relationships between classes are shown by different types of arrows.
 
 ## Wireframes and Diagrams
