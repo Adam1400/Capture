@@ -78,6 +78,13 @@ A class has three parts:
 
 In a large system with many related classes, classes are grouped together to create class diagrams. Different relationships between classes are shown by different types of arrows.
 
+*Benefits of class diagrams
+
+* Illustrate data models for information systems, no matter how simple or complex.
+* Better understand the general overview of the schematics of an application.
+* Visually express any specific needs of a system and disseminate that information throughout the business.
+* Create detailed charts that highlight any specific code needed to be programmed and implemented to the described structure.
+
 ## Wireframes and Diagrams
 
 Navigate [here](https://github.com/Adam1400/cs350/tree/master/plan/milestone-2/design/diagrams) to view UML Diagrams.
