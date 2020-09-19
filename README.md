@@ -5,7 +5,7 @@
 ## [Capture](https://capture350.herokuapp.com/)
 
 
-### Capture is a photo media galery similar to instagram or google photos
+### Capture is a photo media gallery similar to Instagram or Google Photos
 
 * Built with Python/ Django
 * supplemented with HTML/CSS
