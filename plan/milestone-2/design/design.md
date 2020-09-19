@@ -78,7 +78,7 @@ In a large system with many related classes, classes are grouped together to cre
 
 ## Wireframes and Diagrams
 
-Navigate [here] to view UML Diagrams.
+Navigate [here](https://github.com/Adam1400/cs350/tree/master/plan/milestone-2/design/diagrams) to view UML Diagrams.
 
 
 
