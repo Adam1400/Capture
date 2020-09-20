@@ -21,7 +21,7 @@
 * ~~High-level design~~
 At this point in time the app is deployed [here](https://capture350.herokuapp.com/) 
 
-## Milestone #2 - Test
+# Milestone #2 - Test
 ## Completed 9/20 
 * Setup for Test-driven development
   * Commit and pull new Github Desktop code.
@@ -44,7 +44,7 @@ At this point in time the app is deployed [here](https://capture350.herokuapp.co
 * Fix defects
   
 
-## Goal: Test Infrastructure
+# Goal: Test Infrastructure
 ## Completed 9/20
 * Unit test framework (the start of test driven development)
 * System testing framework 
