@@ -7,8 +7,6 @@
 * Show the core user story
 * Create the working relationsip
 * High-level design
-* File: Milestone-2/Test.md
-* Git Repo: Adam1400/cs350.github.io
 
 ## Milestone #2 - Test
 
