@@ -15,10 +15,14 @@
 * ~~Create a hosted application~~
 * ~~Show the core user story~~
 * ~~Create the working relationsip~~
+  * Our team is great at working together and communication
+  * Discusses app via discord very often
+  * holds eachother accountable
 * ~~High-level design~~
+At this point in time the app is deployed [here](https://capture350.herokuapp.com/) 
 
 ## Milestone #2 - Test
-
+## Completed 9/20 
 * Setup for Test-driven development
   * Commit and pull new Github Desktop code.
   * Use open folder in brackets to remember code location
@@ -41,7 +45,12 @@
   
 
 ### Goal: Test Infrastructure
-
+### Completed 9/20
 * Unit test framework (the start of test driven development)
-* System testing framework
+* System testing framework 
+ * Create Simple Test Case
+ * Test all
+   * setup_something()
+   * do_something()
+   * assert something()
 * Regression testing
