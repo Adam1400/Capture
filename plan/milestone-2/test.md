@@ -8,6 +8,15 @@
 * Create the working relationsip
 * High-level design
 
+# UPDATE 9/20 Milestone #2 Technology Proven - Goal
+
+* ~~Prove that the project is doable~~
+* ~~Demonstrate the basic capability required~~
+* ~~Create a hosted application~~
+* ~~Show the core user story~~
+* ~~Create the working relationsip~~
+* ~~High-level design~~
+
 ## Milestone #2 - Test
 
 * Setup for Test-driven development
