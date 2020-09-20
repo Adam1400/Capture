@@ -44,8 +44,8 @@ At this point in time the app is deployed [here](https://capture350.herokuapp.co
 * Fix defects
   
 
-### Goal: Test Infrastructure
-### Completed 9/20
+## Goal: Test Infrastructure
+## Completed 9/20
 * Unit test framework (the start of test driven development)
 * System testing framework 
  * Create Simple Test Case
