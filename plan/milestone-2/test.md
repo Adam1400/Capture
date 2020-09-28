@@ -1,5 +1,4 @@
 
-<<<<<<< master
 # Milestone #2 Technology Proven - Goal
 
 * Prove that the project is doable
@@ -70,5 +69,4 @@ At this point in time the app is deployed [here](https://capture350.herokuapp.co
 
 * Unit test framework
 * System testing framework
->>>>>>> master
 * Regression testing
