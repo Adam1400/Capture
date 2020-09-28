@@ -111,7 +111,7 @@ This task can seem overwhelming if you look at the whole.   We will be using a e
 
 While every item in the hierarchy may have 5-10 legitimate children, they are not all equally important.  Our essential test plan forces us to select the four most important items at every level.  This gives a robust plan for test what is truly important.  Compare the number of artifacts to the complete plan above.  Instead of detailing 2000 Test Cases we are only dealing with 250.
 
-Book Builder Testing Hierarchy
+Picture Builder Testing Hierarchy
 
 This hierarchy can be documented to highlight the key artifacts.
 

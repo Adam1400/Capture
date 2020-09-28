@@ -51,7 +51,7 @@ This application will be capable of supporting multiple users at once, which wil
 There are three primary priorities that define the scope of a software project.  It is 
 important to establish the priority of each of these.  
 
-Book Builder Priorities
+Picture Builder Priorities
 
 1. Schedule - This entire must be completed by December 4, 2020 in order to be used for the
 UNC classes.
