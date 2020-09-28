@@ -61,7 +61,7 @@ At this point in time the app is deployed [here](https://capture350.herokuapp.co
 * Software Project Plan - Capture Web App
 * Other Roles - Requirements.md , Design.md , Code.md
 * File: Milestone-2/Test.md
-* Documents: Documents/
+* Link: https://github.com/Adam1400/cs350/edit/master/plan/milestone-2/test.md
 * Git Repo: Adam1400/cs350.github.io
 
 ### Goal: Test Infrastructure
