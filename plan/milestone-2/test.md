@@ -53,7 +53,7 @@ At this point in time the app is deployed [here](https://capture350.herokuapp.co
    * setup_something()
    * do_something()
    * assert something()
-=======
+
 # Milestone 2. Technology Proven - Test
 
 ## Project Info
@@ -61,7 +61,6 @@ At this point in time the app is deployed [here](https://capture350.herokuapp.co
 * Software Project Plan - Capture Web App
 * Other Roles - Requirements.md , Design.md , Code.md
 * File: Milestone-2/Test.md
-* URL:https://github.com/JessieLane22/cs350/plan/milestone-2/test.md
 * Documents: Documents/
 * Git Repo: Adam1400/cs350.github.io
 
