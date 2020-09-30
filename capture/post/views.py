@@ -29,10 +29,8 @@ posts = [
 # load templates
 def index(request):
     # this is not working on heroku
-    # context = { 'posts': Post.objects.all() }
-    context = {
-        'posts': posts
-    }
+    context = { 'posts': Post.objects.all() }
+    #context = { 'posts': posts }
     return render(request, 'post/index.html', context)
 
 class PostListView(ListView):

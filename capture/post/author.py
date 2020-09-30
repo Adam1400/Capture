@@ -5,7 +5,6 @@ def add_author(user, name):
     return Author.objects.create(user=user, name=name)
 
 
-
 def get_author(name):
     return Author.objects.get(name=name)
 
