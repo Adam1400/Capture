@@ -62,7 +62,7 @@
 
 
 ## Customer Review
-* Meet with customer to gain approval (Product Backlog, Sprint plan, Progress and sign off from Milestone 2, Document notes from the meeting)
+### Meet with customer to gain approval (Product Backlog, Sprint plan, Progress and sign off from Milestone 2, Document notes from the meeting)
 - Customer is happy with progress thus far and excited with what we have. Feels confident with developers and direction of web-app
 
 ## Team communication
