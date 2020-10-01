@@ -20,38 +20,39 @@
  * Plan user stories
  * Customer review
  
-> ## Issues for Missing Requirements
-> *  Begin using issue tracking for managing work
-> *  Atleast 20 issues
-> - Need to get database up and running.
-> - Make sure all team members can be successful in coding roll! (this involves teamwork)
-> - Progression of test code 
-> - Update .md's on the git
-> - User Interface and User Experience (will focus on this later on)
-> - Scalability (do not have to worry about with this app)
-> - Performance (will focus on this later on as well)
-> - Knowledge of Framkeowrk and Platforms (team will have to individually study)
-> - Security (need to focus on code being safe against security concerns)
+ ## Issues for Missing Requirements
+ ###  Begin using issue tracking for managing work
+ ###  Atleast 20 issues
+ 
+ - Need to get database up and running.
+ - Make sure all team members can be successful in coding roll! (this involves teamwork)
+ - Progression of test code 
+ - Update .md's on the git
+ - User Interface and User Experience (will focus on this later on)
+ - Scalability (do not have to worry about with this app)
+ - Performance (will focus on this later on as well)
+ - Knowledge of Framkeowrk and Platforms (team will have to individually study)
+ - Security (need to focus on code being safe against security concerns)
 
 ## Product Backlog
-* Prioritized list of features
+### Prioritized list of features
 - Database up and running
 - Progression of test code
 - Updating .md docs on git
 - Security of code and user data 
 - The web app is up and running which is great!!
 
-* Create either an issue or a document to hold the product backlog
+### Create either an issue or a document to hold the product backlog
 
-* Clearly define the features that you will deliver in Milestone 3
+### Clearly define the features that you will deliver in Milestone 3
 - Use a design pattern
 - Data model views pattern solutions
 - Build views for all CRUD operations (create, read, update, delete)
-* Focus on delivering "Core Features" first
+### Focus on delivering "Core Features" first
 
 ## Plan User Stories
-* Document 10-20 User Stories
-* Story Outline (Name, User Goal, UX & Workflow, Limitations, How Will it be Tested)
+### Document 10-20 User Stories
+### Story Outline (Name, User Goal, UX & Workflow, Limitations, How Will it be Tested)
 - Charles, store or find images, problems in code, searching/adding images
 - John, store images, problems in database, adding images
 - Ashley, find images, problems in database algorithm, searching images
