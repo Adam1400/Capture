@@ -6,7 +6,7 @@
 
 * Other Roles - [Requirements.md](requirements.md), [Design.md](design.md), [Code.md](code.md), [Test.md](test.md)
 
-* File: Milestone-2/requirements.md
+* File: milestone-2/requirements.md
 
 * URL: https://github.com/Adam1400/cs350/blob/master/plan/milestone-2/requirements.md
 
