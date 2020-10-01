@@ -17,4 +17,4 @@
 * [Milestone 3](https://github.com/Adam1400/cs350/tree/master/plan/milestone-3)
 
 ### Document Library
- * [Documents](https://github.com/Adam1400/cs350/tree/master/Docs/Documents.md)
+ * [Documents](https://github.com/Adam1400/cs350/tree/master/docs/documents.md)
