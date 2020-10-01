@@ -65,15 +65,15 @@
 * Meet with customer to gain approval (Product Backlog, Sprint plan, Progress and sign off from Milestone 2, Document notes from the meeting)
 - Customer is happy with progress thus far and excited with what we have. Feels confident with developers and direction of web-app
 
-### Team communication
+## Team communication
 All main communication will be done throught the Discord on the server
 
-### Plan daily meetings
+## Plan daily meetings
 For our group we have been meeting either before or after each class. During these group meetings we discuss any questions that we have first or just check that we're all on track. These meetings are either through the text channel or voice channel depending on everyones availability. Any addtional meetings are schedueled if necessary
-> Everyone is on track, getting their individual jobs done
-> Communication via Discord has been done well
+- Everyone is on track, getting their individual jobs done
+- Communication via Discord has been done well
 
-### Document Sharing
+## Document Sharing
 * Refine the organization of documents
 * Build one library or tutorials
 * Start simple but pay as you go
