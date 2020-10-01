@@ -1,38 +1,70 @@
 from django.contrib.auth import get_user_model
 from django.test import SimpleTestCase, TestCase
+from .models import Post
+from . import views
+from django.db import models
+from django.contrib.auth.models import User
 
-#from .author import add_author, delete_author, get_author, list_authors
-#from .picture import add_picture, delete_picture, get_picture, list_pictures
-#from .models import Author, Picture
-
-
-class ViewTests(SimpleTestCase):
-
-    def check_template(self, page, template):
-        response = self.client.get(page)
-        self.assertEqual(response.status_code, 404)
-        self.assertTemplateUsed(response, template_name=template)
-
-    def test_view_index(self):
-        self.check_template('/', 'base.html')
-
-    def test_view_prototype(self):
-        self.check_template('/index.html', 'index.html')
-        self.check_template('/post.html', 'post.html')
-        
-
-    def test_view_no_page(self):
-        response = self.client.get('/home.html')
-        self.assertEqual(response.status_code, 404)
+# test views
+class ViewTests(TestCase):  
+    def check_index(self):
+        response = self.client.get('/')
+        self.assertEqual(response.status_code, 200)
         self.assertTemplateUsed(response, template_name='index.html')
 
-    def test_view_missing_template(self):
-        response = self.client.get('/xxx')
-        self.assertEqual(response.status_code, 404)
-        self.assertTemplateUsed('index.html')
+    def check_base_index(self):
+        response = self.client.get('/')
+        self.assertEqual(response.status_code, 200)
+        self.assertTemplateUsed(response, template_name='base.html')
 
-    def test_view_bad_url(self):
-        response = self.client.get('/xxx/home.html')
-        self.assertEqual(response.status_code, 404)
-        self.assertTemplateUsed('index.html')
+    def check_styles_index(self):
+        response = self.client.get('/')
+        self.assertEqual(response.status_code, 200)
+        self.assertTemplateUsed(response, template_name='styles.html')
+
+    def check_post(self):
+        response = self.client.get('/post')
+        self.assertEqual(response.status_code, 200)
+        self.assertTemplateUsed(response, template_name='post.html') 
+
+    def check_base_post(self):
+        response = self.client.get('/post')
+        self.assertEqual(response.status_code, 200)
+        self.assertTemplateUsed(response, template_name='base.html') 
+
+    def check_styles_posts(self):
+        response = self.client.get('/post')
+        self.assertEqual(response.status_code, 200)
+        self.assertTemplateUsed(response, template_name='styles.html')
+
+    def check_admin(self):
+        response = self.client.get('/admin')
+        self.assertEqual(response.status_code, 200)
+
+    def check_null(self):
+        responce =  self.client.get('/xxxxx')
+        seldf.assertEqual(responce.status_code, 404)
+
+
+# test content
+class ContentTest(TestCase):
+    def setUp(self):
+        self.post = Post.objects.create(
+        user= 'adam1400',
+        comment= 'Testing database...',
+        content= 'https://arts.unco.edu/images/music/campus-commons/CCPH_Interior_1200x800.jpg',
+        post_date= 'September 28, 2020'    
+        )
+
+    def test_post_content(self):
+        self.assertEqual(post.user , 'adam1400')
+        self.assertEqual(post.comment, 'Testing database...')
+        self.assertEqual(post.content, 'https://arts.unco.edu/images/music/campus-commons/CCPH_Interior_1200x800.jpg')
+        self.assertEqual(post.post_date, 'September 28, 2020')
+
+
+        
+
+
+    
 
