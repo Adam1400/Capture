@@ -77,3 +77,5 @@ For our group we have been meeting either before or after each class. During the
 * Refine the organization of documents
 * Build one library or tutorials
 * Start simple but pay as you go
+### Updated Document Library (Can be found here)
+* [Documents](https://github.com/Adam1400/cs350/tree/master/docs/documents.md)
