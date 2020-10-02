@@ -27,5 +27,5 @@
     - attempted to contain form in a div and fix position (didn't work)
     - tried changing form method style (didn't work)
 * Set data defaults in null conditions
-* Find static file solution on heroku
+* Find static file solution on Heroku (Allen had a point with Heroku being a pain!)
     - set up AWS account, not sure what to do next
