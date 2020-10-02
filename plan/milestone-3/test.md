@@ -17,7 +17,7 @@
 * ~~implement automated tests~~
     * See tests.py under posts
     * Tested 404 errors when template fails to load
-    * 3 Failures on index, post and admin
+    * Tested for page content via database entery
 * ~~Test Main page functionality~~
     * Page is functioning properly and will scale pictures to container
     * works on mobile
