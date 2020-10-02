@@ -24,6 +24,8 @@
 * Make 404 page (turn off debug during deployment)
     - debug is turned off now
 * Realign post fields on the post page
+    - attempted to contain form in a div and fix position (didn't work)
+    - tried changing form method style (didn't work)
 * Set data defaults in null conditions
 * Find static file solution on heroku
     - set up AWS account, not sure what to do next
