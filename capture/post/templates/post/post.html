@@ -1,11 +1,12 @@
 {% extends "post/base.html" %}
 {% block content %}
-    <form method="POST" class="post-form">
+<div class="form-group" style="position: relative; top: 0px">
+    <form method="POST" class="post-form" style="margin-top:auto">
         {% csrf_token %}
-        
+
         <fieldset class="form-group">
             <legend class="border-bottom mb-4">Post a Picture</legend>
-           
+
             <div class="form-group">
                 <label for="content">Picture URL (temporary feature)</label>
                 <input type="URL" class="form-control" id="content" placeholder="https://www.google.com/url">
@@ -15,12 +16,13 @@
                 <label for="comment">Comment</label>
                 <input type="text" class="form-control" id="comment" aria-describedby="emailHelp" placeholder="Enter comment">
             </div>
-              
+
         </fieldset>
         <div class="form-group">
             <button class="btn btn-outline-info" type="submit">Post</button>
         </div>
     </form>
-   
+</div>
+
 
 {% endblock content %}

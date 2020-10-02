@@ -22,7 +22,8 @@
 ## Objectives:
 
 * Make 404 page (turn off debug during deployment)
+    - debug is turned off now
 * Realign post fields on the post page
-* Set data defualts in null conditions
+* Set data defaults in null conditions
 * Find static file solution on heroku
-    - set up AWS account
+    - set up AWS account, not sure what to do next
