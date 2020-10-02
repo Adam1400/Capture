@@ -20,6 +20,7 @@ Goal: Component Design - API
 * Implement URL routes
 
 ## Capture - Component Design - API
+
 ### Prototype - development spike of core functionality
 
 ### Implement data models
