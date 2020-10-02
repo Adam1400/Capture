@@ -19,6 +19,10 @@
 * Test the features
 * Fix all defects
 
-## Features:
+## Objectives:
 
-* 
+* Make 404 page (turn off debug during deployment)
+* Realign post fields on the post page
+* Set data defualts in null conditions
+* Find static file solution on heroku
+    - AWS wants to keep credit card info 
