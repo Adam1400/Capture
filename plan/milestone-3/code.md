@@ -25,4 +25,4 @@
 * Realign post fields on the post page
 * Set data defualts in null conditions
 * Find static file solution on heroku
-    - AWS wants to keep credit card info 
+    - set up AWS account
