@@ -1,7 +1,6 @@
 {% extends "post/base.html" %}
 {% block content %}
-<div class="form-group" style="position: relative; top: 0px">
-    <form method="POST" class="post-form" style="margin-top:auto">
+    <form method="POST" class="post-form" style="position: relative; top: 0px">
         {% csrf_token %}
 
         <fieldset class="form-group">
@@ -22,7 +21,5 @@
             <button class="btn btn-outline-info" type="submit">Post</button>
         </div>
     </form>
-</div>
-
 
 {% endblock content %}
