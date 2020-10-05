@@ -51,7 +51,7 @@ Goal: Component Design - API
 * posts*
 * order
 
-Data models: (https://github.com/Adam1400/cs350/blob/master/capture/post/models.py)
+Data models: https://github.com/Adam1400/cs350/blob/master/capture/post/models.py
 ### Implement views
 * The the views that we have implemented so far post list view and post view
 
