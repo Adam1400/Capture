@@ -30,13 +30,29 @@ Goal: Component Design - API
 ### Implement data models
 * Data models include Users, Profiles, Posts, and Feed
 #### Users
+* username
+* password
+* profile*
 
 #### Profiles
-
+* name
+* username
+* bio
+* edit profile
+* posts*
 #### Posts
+* username
+* image
+* caption
+* comment
+* like
 
 #### Feed
+* posts*
+* order
 
+Data models: (https://github.com/Adam1400/cs350/blob/master/capture/post/models.py)
 ### Implement views
+* The the views that we have implemented so far post list view and post view
 
 ### Implement URL routes
