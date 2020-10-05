@@ -23,9 +23,9 @@ Goal: Component Design - API
 
 ### Prototype - development spike of core functionality
 * Core set features for this project:
-..* User can create an account
-..* User can create a post
-..* User can make comments and like posts
+    * User can create an account
+    * User can create a post
+    * User can make comments and like posts
 ### Implement data models
 
 ### Implement views
