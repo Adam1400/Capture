@@ -27,6 +27,7 @@ Goal: Component Design - API
     * Users can see their feed
     * Users can create and edit a post 
     * Users can make comments and like posts
+
 ### Implement data models
 * Data models include Users, Profiles, Posts, and Feed
 #### Users
@@ -40,6 +41,7 @@ Goal: Component Design - API
 * bio
 * edit profile
 * posts*
+
 #### Posts
 * username
 * image
@@ -52,7 +54,10 @@ Goal: Component Design - API
 * order
 
 Data models: https://github.com/Adam1400/cs350/blob/master/capture/post/models.py
+
 ### Implement views
-* The the views that we have implemented so far post list view and post view
+* The the views that we have implemented so far post list view and post view(feed), which can be found here: https://github.com/Adam1400/cs350/blob/master/capture/post/views.py
+* Views that still need to be implemented are users and profiles
+* Currently we are heving a problem with our database just working localy and not on heroku yet.
 
 ### Implement URL routes
