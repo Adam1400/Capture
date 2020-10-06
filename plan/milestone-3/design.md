@@ -58,6 +58,7 @@ Data models: https://github.com/Adam1400/cs350/blob/master/capture/post/models.p
 ### Implement views
 * The the views that we have implemented so far post list view and post view(feed), which can be found here: https://github.com/Adam1400/cs350/blob/master/capture/post/views.py
 * Views that still need to be implemented are users and profiles
-* Currently we are heving a problem with our database just working localy and not on heroku yet.
+* Currently we are heving a problem with our database just working localy and not on heroku yet. Currently we have temporary dummy data (test data) to show up.
 
 ### Implement URL routes
+* The current URL routes that we have implemented are for feed and post which can be found here: https://github.com/Adam1400/cs350/blob/master/capture/post/urls.py
