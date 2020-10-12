@@ -1,7 +1,13 @@
-from django.http import HttpResponse
+from django.http import HttpResponse, HttpResponseRedirect
 from django.shortcuts import render
 from django.views.generic import ListView
+from django.forms import ModelForm
 from .models import Post
+from django.contrib.auth.models import User
+from django.urls import reverse
+
+
+
 
 # temporary dummy data
 posts = [
@@ -40,4 +46,26 @@ class PostListView(ListView):
     ordering = ['-post_date'] # order of posts (newest first)
 
 def post(request):
-    return render(request, 'post/post.html', {'title': 'Post'})
+    
+    form = PostForm()
+    if request.method == "POST":
+        form = PostForm(request.POST)
+        
+        if form.is_valid():
+            form.save()
+            indexcontext = { 'posts': Post.objects.all() }
+            return HttpResponseRedirect(reverse('capture-home'))
+
+    
+    context = {'form':form, 'title': 'Post'}
+    return render(request, 'post/post.html', context )
+
+class PostForm(ModelForm):
+    class Meta:
+        model = Post
+        fields = ['comment', 'content']
+
+
+    
+
+
