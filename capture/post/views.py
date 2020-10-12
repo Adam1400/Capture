@@ -13,7 +13,7 @@ from django.urls import reverse
 posts = [
     {
         'user': 'adam1400',
-        'comment': 'Testing database... works localy. Does not work on heroku YET. Struggling to get static files hosted on heroko. This includes css and in this case database migrations.',
+        'comment': 'Testing database... works localy. Does not work on heroku YET. Striggling to get staic files hosted on heroko. This includes css and in this case database migrations.',
         'content': 'https://arts.unco.edu/images/music/campus-commons/CCPH_Interior_1200x800.jpg',
         'post_date': 'September 28, 2020'    
     },
