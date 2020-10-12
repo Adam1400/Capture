@@ -1,6 +1,6 @@
 # CS350 | Capture Webapp
 
-### Managed by: Allen Adams, Jessica Torres, Jessica Herold, Chris Gaona
+### Managed by: Allen Adams, Jessica Torres, Jessica Herold, Chris Gaona, Jacob Schroeder
 
 ## [Capture](https://capture350.herokuapp.com/)
 
@@ -15,4 +15,5 @@
 * [Milestone 1](https://github.com/Adam1400/cs350/tree/master/plan/milestone-1)
 * [Milestone 2](https://github.com/Adam1400/cs350/tree/master/plan/milestone-2)
 * [Milestone 3](https://github.com/Adam1400/cs350/tree/master/plan/milestone-3)
+* [Milestone 4](https://github.com/Adam1400/cs350/tree/master/plan/milestone-4)
 
