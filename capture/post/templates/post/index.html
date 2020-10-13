@@ -8,12 +8,6 @@
     <div class="post">
         <h2>{{ post.user }}</h2>
         <img src="{{ post.content }}">
-
-        <!--
-            <h5>{{ post.post_date }}</h5>
-            works for database not dummy data
-            
-        -->
         <h5>{{ post.post_date|date:"F d, Y" }}</h5>
         <p>{{ post.comment }}</h2>
         <hr>
