@@ -1,4 +1,3 @@
-
 # Milestone 2. Technology Proven - Requirements
 
 ## PROJECT INFO
