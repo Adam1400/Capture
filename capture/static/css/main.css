@@ -1,12 +1,13 @@
-/*all css goes here for now*/
 
 a{
-    color: white;  
+    color: white; 
+    transition: 0.2s ease-in-out;
 }
 a:hover{
-    color: white;
     text-decoration: none;
 }
+
+/*****************************/
 
 /*HEADER*/
 nav{
@@ -19,26 +20,15 @@ nav{
 }
 
 .brand{
-    color: white;
+    color: white; 
+    transition: 0.2s ease-in-out;
+}
+
+.brand:hover{
+    color:#132743;
 }
 
 /*****************************/
-
-/*BODY*/
-.container{
-    text-align: center;
-
-}
-
-.post{
-    align-items: center;
-    
-}
-
-img{
-    width: 75%;
-    height: auto;
-}
 
 /*FOOTER*/
 .footer {
@@ -57,21 +47,62 @@ img{
     align-items: center;
     justify-content: space-between;
 }
+
 .leftControls{
-    width:10%; 
+    width:20%; 
 }
 .mainControls{
     width:100%;
 }
-
 .rightControls{
-    width:10%; 
+    width:20%;
+}
+
+a:hover{
+    color:#132743;
+}
+
+svg{
+    margin-right: 3%;
+    margin-left: 3%;
 }
 
 
+/*****************************/
 
-/*post page*/
+/*MAIN PAGE*/
+.container{
+    text-align: center;
+
+}
+
+.post{
+    align-items: center;
+    
+}
+
+img{
+    width: 75%;
+    height: auto;
+    transition: 0.4s ease-in-out;
+    border-radius: 10px;
+}
+
+img:hover{
+    width:100%; 
+}
+
+/*****************************/
+
+/*POST PAGE*/
 .post-form{
-    margin-top: 20%;
-
+    margin-top: 4rem;
 }
+
+input, textarea {
+    width: 70%;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid grey;
+    border-radius: 5px;
+  }
