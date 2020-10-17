@@ -34,6 +34,7 @@ ALLOWED_HOSTS = ['capture350.herokuapp.com', '127.0.0.1', 'localhost']
 
 INSTALLED_APPS = [
     'post.apps.PostConfig',
+    'users.apps.UsersConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -128,7 +129,11 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static')
 ]
 
-# MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
-# MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+MEDIA_URL = '/media/'
 
 django_heroku.settings(locals())
+
+# URL Redirects
+LOGIN_REDIRECT_URL = 'capture-home'
+LOGIN_URL = 'login'

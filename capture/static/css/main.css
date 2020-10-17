@@ -106,3 +106,20 @@ input, textarea {
     border: 1px solid grey;
     border-radius: 5px;
   }
+
+/*****************************/
+
+/*PROFILE PAGE*/
+.media{
+    display: flex;
+    flex-direction: column;
+}
+
+.account-img{
+    width: 60%;
+    height: auto;
+}
+
+.account-img:hover{
+    width:60%; 
+}

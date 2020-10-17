@@ -21,17 +21,40 @@
 </head>
 <header>
     <nav class="navbar navbar-expand navbar-custom bg-custom">
-        <div class="brand-container">
-            <a href = "/">
-                <h1 class="brand">Capture</h1>
-            </a>
+        <div class="container">
+            <div class="leftControls">
+                <a href="#">
+                    
+                </a>
+            </div>
+            <div class="brand-container">
+                <a href = "/">
+                    <h1 class="brand">Capture</h1>
+                </a>
+            </div>
+            <div class="navbar-nav">
+                {% if user.is_authenticated %}
+                    <a class="nav-item nav-link" href="{% url 'profile' %}">Profile</a>
+                    <a class="nav-item nav-link" href="{% url 'logout' %}">Logout</a>
+                {% else %}
+                    <a class="nav-item nav-link" href="{% url 'login' %}">Login</a>
+                    <a class="nav-item nav-link" href="{% url 'register' %}">Register</a>
+                {% endif %}
+            </div>
         </div>
-        
       </nav>
       
 </header>
 <body>
     <div class="container">
+        <!-- MESSAGES WILL DISPLAY HERE -->
+        {% if messages %}
+            {% for message in messages %}
+                <div class="alert alert-{{ message.tags }}">
+                    {{ message }}
+                </div>
+            {% endfor %}
+        {% endif %}
         <!-- PAGE CONTENT WILL POPULATE HERE -->
         {% block content %}{% endblock %}
     </div>
