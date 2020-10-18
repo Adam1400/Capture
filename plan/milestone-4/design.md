@@ -25,5 +25,6 @@ Explanation: A design pattern is a general, reusable soultion to a commonly occu
 
 Object-oriented design patterns typically show relationships and interactions between classes or objects.
 
-Previously our group has created UML diagrams which can be found here
- 
+Previously our group has created UML diagrams which can be found [here](https://github.com/Adam1400/cs350/tree/master/plan/milestone-2/design/diagrams)
+
+### Diagram of Code Structure
