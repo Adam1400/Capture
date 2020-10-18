@@ -29,4 +29,12 @@ Previously our group has created UML diagrams which can be found [here](https://
 
 ### Diagram of Code Structure
 
-Our group has created a new code diagram foungd [here](https://github.com/Adam1400/cs350/tree/master/plan/milestone-4/diagrams/Blank%20diagram%20(5).jpeg)
+Our group has created a new code diagram found [here](https://github.com/Adam1400/cs350/tree/master/plan/milestone-4/diagrams/Blank%20diagram%20(5).jpeg)
+
+### Document Key API's
+
+Explanation: An API key or application programming interface key is a code that gets passed in by computer applications. The program or application then calls the API or application programming interface to identify its user, developer or calling program to a website. 
+[Hre](https://github.com/Adam1400/cs350/tree/master/plan/milestone-4/diagrams/Blank%20diagram%20(5).jpeg) is an image to help further understand this concept
+
+
+
