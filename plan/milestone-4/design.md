@@ -29,5 +29,4 @@ Previously our group has created UML diagrams which can be found [here](https://
 
 ### Diagram of Code Structure
 
-Our group has created a new code diagram foungd [here](https://github.com/Adam1400/cs350/tree/master/plan/milestone-4/design/diagram)
-
+Our group has created a new code diagram foungd [here](https://github.com/Adam1400/cs350/tree/master/plan/milestone-4/diagrams/Blank%20diagram%20(5).jpeg)
