@@ -34,6 +34,7 @@ Our group has created a new code diagram found [here](https://github.com/Adam140
 ### Document Key API's
 
 Explanation: An API key or application programming interface key is a code that gets passed in by computer applications. The program or application then calls the API or application programming interface to identify its user, developer or calling program to a website. 
+
 [Here](https://github.com/Adam1400/cs350/tree/master/plan/milestone-4/diagrams/api_keys_overview.png) is an image to help further understand this concept
 
 
