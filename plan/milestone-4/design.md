@@ -1,4 +1,4 @@
-# Milestone 4. Design - Refactoring and code Structure
+# Milestone 4. Design - Refactoring and Code Structure
 
 ## PROJECT INFO
 * [Software Project Plan - Capture](https://capture350.herokuapp.com/)
