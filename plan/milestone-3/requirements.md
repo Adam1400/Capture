@@ -68,9 +68,9 @@
 All main communication will be done throught the Discord on the server
 
 ## Plan daily meetings
-For our group we have been meeting either before or after each class. During these group meetings we discuss any questions that we have first or just check that we're all on track. These meetings are either through the text channel or voice channel depending on everyones availability. Any addtional meetings are schedueled if necessary
+For our group we have been meeting either before or after each class. During these group meetings we discuss any questions that we have first or just check that we're all on track. These meetings are either through the text channel or voice channel depending on everyones availability. Any addtional meetings are scheduled if necessary
 - Everyone is on track, getting their individual jobs done
-- Communication via Discord has been done well
+- Communication via Discord has been going well
 
 ## Document Sharing
 * Refine the organization of documents
