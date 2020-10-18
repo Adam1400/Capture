@@ -23,7 +23,7 @@
  ###  Begin using issue tracking for managing work
  ###  Atleast 20 issues
  
- - Need to get database up and running.
+ - Need to get database up and running
  - Make sure all team members can be successful in coding roll! (this involves teamwork)
  - Progression of test code 
  - Update .md's on the git
