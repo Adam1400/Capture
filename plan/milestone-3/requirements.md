@@ -1,4 +1,4 @@
-# Milestone 2. Core Features Implemented - Requirements
+# Milestone 3. Core Features Implemented - Requirements
 
 ## PROJECT INFO
 * [Software Project Plan - Capture](https://capture350.herokuapp.com/)
