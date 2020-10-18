@@ -28,3 +28,5 @@ Object-oriented design patterns typically show relationships and interactions be
 Previously our group has created UML diagrams which can be found [here](https://github.com/Adam1400/cs350/tree/master/plan/milestone-2/design/diagrams)
 
 ### Diagram of Code Structure
+
+! [] (Blank diagram (5).jpeg)
