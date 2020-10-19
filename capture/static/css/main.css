@@ -65,11 +65,14 @@ nav{
     flex:10;
 }
 .rightControls{
-    
+    min-width: 20%;
     display: flex;
+    justify-content: flex-end;
     flex:1;
-    margin-left: 4rem; 
+    
 }
+
+    
 
 a:hover{
     color:#132743;
