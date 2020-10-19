@@ -5,6 +5,8 @@ from django.forms import ModelForm
 from .models import Post
 from django.contrib.auth.models import User
 from django.urls import reverse
+from users.models import Profile
+from django.contrib.auth.decorators import login_required
 
 # load templates
 def index(request):
@@ -19,12 +21,14 @@ class PostListView(ListView):
 
 class PostDetailView(DetailView):
     model = Post
-    
+
+@login_required  
 def post(request):
     form = PostForm()
     if request.method == "POST":
         form = PostForm(request.POST)
-        
+        form.instance.user = request.user
+
         if form.is_valid():
             form.save()
             indexcontext = { 'posts': Post.objects.all() }
@@ -39,7 +43,9 @@ class PostForm(ModelForm):
         model = Post
         fields = ['comment', 'content']
 
-
+        
+        
+            
     
 
 
