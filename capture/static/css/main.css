@@ -72,6 +72,12 @@ nav{
     
 }
 
+@media(max-width: 500px) /* Mobile */ {
+    .hide {
+      display: none;
+    }
+  }
+
     
 
 a:hover{
