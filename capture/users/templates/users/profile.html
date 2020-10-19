@@ -1,4 +1,4 @@
-{% extends "post\base.html" %}
+{% extends "post/base.html" %}
 {% load crispy_forms_tags %}
 {% block content %}
     <div class="content-section">
@@ -11,6 +11,23 @@
       <div>
             <img class="account-img" src="{{ user.profile.image.url }}">
       </div>
-      <!-- FORM HERE -->
+      <br><br>
+      <hr>
+      <h3>Change Profile Picture</h3>
+      <form method="POST" enctype="multipart/form-data" class="profile-form">
+        {% csrf_token %}
+        <fieldset class="form-group">
+          
+            <div class="form-group">
+                
+                {{ form }}
+            </div>
+           
+        </fieldset>
+        <div class="form-group">
+            <button class="btn btn-outline-info" name="postButton"  type="submit" value="Post" >Update</button>
+        </div>
+    </form>
     </div>
+    <br><br>
 {% endblock content %}
