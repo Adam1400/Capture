@@ -72,6 +72,12 @@ nav{
     
 }
 
+@media(max-width: 500px) /* Mobile */ {
+    .hide {
+      display: none;
+    }
+  }
+
     
 
 a:hover{
@@ -102,6 +108,31 @@ img{
 
 img:hover{
     width:100%; 
+}
+
+.profile-bubble{
+  
+    
+    background-color: #FFFFFF;
+    height: 50px;
+    border-radius:50%;
+    width: 50px;
+    margin-bottom: 1rem;
+   
+}
+.profile-bubble:hover{
+    background-color: #FFFFFF;
+    height: 100px;
+    border-radius:50%;
+    width: 100px;
+}
+
+.post-head{
+    display: inline-block;
+}
+
+.single-post{
+    margin-top: 6rem;
 }
 
 /*****************************/
@@ -147,4 +178,19 @@ input, textarea {
 .content-section a{
     color: #5bc0de;
 }
+
+.profile-form {
+   
+    padding: 5px;
+    border: none;
+    border-radius: none;
+}
+
+#id_image{
+    width: 13rem;
+    padding: 5px;
+    border: none;
+    border-radius: none;
+}
+
 
