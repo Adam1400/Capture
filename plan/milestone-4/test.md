@@ -18,6 +18,7 @@
     - updated my profile picture (picture is still shown)
     - created a new account
 * Implement Travis (CI tool)
+    - became an owner to actually implement
 * Document release process
     - posting images needs to be updated with the option to look into files instead of a link
 * Build deployment script
