@@ -14,6 +14,10 @@
 ### Goal: Continuous integration
 
 * Build and test with every push
+    - uploaded a picture from my local device 
+    - updated my profile picture (picture is still shown)
+    - created a new account
 * Implement Travis (CI tool)
 * Document release process
+    - posting images needs to be updated with the option to look into files instead of a link
 * Build deployment script
