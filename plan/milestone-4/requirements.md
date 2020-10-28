@@ -34,7 +34,7 @@ Jacob joined the team last week. He has been assigned the coding role and will s
 Each team member will be admins on the site. In order to do this I gathered info about each team mamber and created super users in the database with their desired credentials. This info will be used for local and heroku enviorments. Now all team members can edit/create/delete data via admin login. 
 
 ### PRIORITIZED FEATURE REQ
-The kanban has been updated to display tasks in a higherarchy. Each field has a list of tasks ordred from most to least priority. The top task in each field must be completed in order to move to the next. The completed fied does not necessarily follow a higherarchy of tasks. 
+The kanban has been updated to display tasks in a hierarchy. Each field has a list of tasks ordred from most to least priority. The top task in each field must be completed in order to move to the next. The completed fied does not necessarily follow a higherarchy of tasks. 
 
 ### STATE OF PROJECT
 Last week it was looking grim in terms of the project forcast. Heroku was proving to be a challange when migrating things from local to server side. However, I was able to fix all heroku issues and the project has a bright future. Static files were fixed and this cascaded to working CSS and a working Database. YAY! All core features and functionality has been completed. The site allows user to post pictures with a comment and date, as well as display author username. From here it should be easy... developers can focus on improving and updating features rather than heroku compatability! 
