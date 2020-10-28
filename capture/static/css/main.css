@@ -52,6 +52,7 @@ nav{
     align-content: center;
     align-items: center;
     justify-content: space-evenly;
+    
 }
 
 .leftControls{
@@ -130,10 +131,32 @@ img:hover{
 .post-head{
     display: inline-block;
 }
+/*****************************/
+
+/*SINGLE POST*/
 
 .single-post{
-    margin-top: 6rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   overflow-x: hidden;
 }
+
+.single-profile-bubble{
+    width: 30%;
+}
+
+.single-post-pic{
+    width:100%;
+}
+
+.single-post-pic:hover{
+    width:150%;
+    overflow: none;
+}
+
+
 
 /*****************************/
 

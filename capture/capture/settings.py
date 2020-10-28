@@ -41,7 +41,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'crispy_forms'
+    'crispy_forms',
+    'storages'
 ]
 
 MIDDLEWARE = [
@@ -137,3 +138,13 @@ django_heroku.settings(locals())
 # URL Redirects
 LOGIN_REDIRECT_URL = 'capture-home'
 LOGIN_URL = 'login'
+
+# bad practaces -- these should be in env veriables
+AWS_ACCESS_KEY_ID = 'AKIAXAGRKK2QCTJIX76N'
+AWS_SECRET_ACCESS_KEY = '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'
+AWS_STORAGE_BUCKET_NAME = 'capture350-files'
+
+AWS_S3_REGION_NAME = 'us-east-2'
+AWS_S3_FILE_OVERWRITE = False
+AWS_DEFAULT_ACL = None
+DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'

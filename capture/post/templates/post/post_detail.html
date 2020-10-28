@@ -2,14 +2,17 @@
 {% block content %}
 
  
+  
     <br>
-
     <div class="post single-post">
-        <img class="profile-bubble" src="{{ object.user.profile.image.url }}">
+        <img class="single-profile-bubble" src="{{ object.user.profile.image.url }}">
+        <br>
         <h2 class="post-head">{{ object.user }}</h2>  
         <br>
-        <img src="{{ object.content }}">
+        <img class="single-post-pic" src="{{ object.content.url }}">
+        <br>
         <h5>{{ object.post_date|date:"F d, Y" }}</h5>
+        <br>
         <p>{{ object.comment }}</p>
      
     </div>

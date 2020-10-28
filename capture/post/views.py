@@ -26,7 +26,7 @@ class PostDetailView(DetailView):
 def post(request):
     form = PostForm()
     if request.method == "POST":
-        form = PostForm(request.POST)
+        form = PostForm(request.POST, request.FILES)
         form.instance.user = request.user
 
         if form.is_valid():
