@@ -6,10 +6,14 @@
 
     {% for post in posts %}
     <div class="post">
-        <img class="profile-bubble" src="{{ post.user.profile.image.url }}">
-        <h2 class="post-head">{{ post.user }}</h2> 
+        {% if post.user.profile.image.url %}
+            <img class="profile-bubble" src="{{ post.user.profile.image.url }}">
+        {% else %}
+            <img class="profile-bubble" src="https://capture350-files.s3.amazonaws.com/default.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAXAGRKK2QCTJIX76N%2F20201028%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20201028T165043Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=c6088c6213331b48c75a0a6cc17ac12e0fb26404e617892333c2cbd2207ab5e7">
+        {% endif %}
+            <h2 class="post-head">{{ post.user }}</h2> 
         <br>
-        <a href="{% url 'post-detail' post.id %}"><img src="{{ post.content }}"></a>
+        <a href="{% url 'post-detail' post.id %}"><img src="{{ post.content.url }}"></a>
         <h5>{{ post.post_date|date:"F d, Y" }}</h5>
         <p>{{ post.comment }}</p>
         <hr>
