@@ -14,5 +14,12 @@
 ### Goal: Project Progress
 * Burn down graph
 * Prioritize Features
+    - responsive post image
+    - like button
+    - edit post button
 * Product backlog
+    - front end user login
+    - 404 error template 
+    - fix user post forms (character limit)
+    - profile pictures actually do not save on Heroku (bummer)
 * Adjust project scope
