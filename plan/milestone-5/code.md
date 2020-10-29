@@ -17,24 +17,20 @@ Role: Secondary Programmer - Code - Christopher Gaona
 
 Goal: Finish Writing Code
 
-* Implement User Stories
-* Test-driven workflow
-* Implementation Cycle - Test, Fix, Extend, Improve
-* Implement Core Features
-    - Implement a register account system
-    - Implement a login/logout system
-    - Implement a profile page
-
-## Capture - Write code - core features
-### Implement User Stories
-* Users can upload pictures to the website to store for memories.
-* Users can also view posts made by other users on the website.
+* Implement User Stories X
+* Test-driven workflow X
+* Implementation Cycle - Test, Fix, Extend, Improve X
+* Implement Core Features X
+    - Implement a register account system X
+    - Implement a login/logout system X
+    - Implement a profile page X
 
 ### Test-driven workflow
 Coding is done in chunks with testing between. This insures that everything that is implemented in the project functions as intended.
 
 ### Implementation Cycle - Test, Fix, Extend, Improve
 
-
 ### Implement all core features
 Users can now register an account on the website, and log in and log out of their accounts. There is a profile page where users can view all of their posts.
+
+### Finish Writing Code
