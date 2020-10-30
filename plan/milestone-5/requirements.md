@@ -22,4 +22,5 @@
     - 404 error template 
     - fix user post forms (character limit)
     - profile pictures actually do not save on Heroku (bummer)
+        * UPDATE: our genius, Allen, got AWS to work so now pictures are permanent in a US East server
 * Adjust project scope
