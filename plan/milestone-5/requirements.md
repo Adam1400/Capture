@@ -16,11 +16,12 @@
 * Prioritize Features
     - responsive post image
     - like button
+        * UPDATE: not a priority anymore until a refresh error can be fixed
     - edit post button
 * Product backlog
     - front end user login
     - 404 error template 
     - fix user post forms (character limit)
     - profile pictures actually do not save on Heroku (bummer)
-        * UPDATE: our genius, Allen, got AWS to work so now pictures are permanent in a US East server
+        * UPDATE: our genius, Allen, got AWS to work so now pictures are permanent on a US East server
 * Adjust project scope
