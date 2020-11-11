@@ -14,7 +14,8 @@
             <h2 class="post-head">{{ post.user }}</h2> 
         <br>
         <a href="{% url 'post-detail' post.id %}"><img src="{{ post.content.url }}"></a>
-        <h5>{{ post.post_date|date:"F d, Y" }}</h5>
+        <h5 class="date">{{ post.post_date|date:"F d, Y" }}</h5>
+
         <p>{{ post.comment }}</p>
         <hr>
     </div>

@@ -146,6 +146,9 @@ img:hover{
 .single-profile-bubble{
     width: 30%;
 }
+.single-profile-bubble:hover{
+    width: 50%;
+}
 
 .single-post-pic{
     width:100%;
