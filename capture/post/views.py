@@ -1,4 +1,4 @@
-from django.http import HttpResponse, HttpResponseRedirect
+from django.http import HttpResponse, HttpResponseRedirect, JsonResponse
 from django.shortcuts import render, get_object_or_404
 from django.views.generic import ListView, DetailView
 from django.forms import ModelForm
@@ -8,16 +8,26 @@ from django.urls import reverse, reverse_lazy
 from users.models import Profile
 from django.contrib.auth.decorators import login_required
 
-# load templates
-def index(request):
-    context = { 'posts': Post.objects.all()}
-    return render(request, 'post/index.html', context)
 
+# load templates
 class PostListView(ListView):
     model = Post
     template_name = 'post/index.html'
     context_object_name = 'posts'
     ordering = ['-post_date'] # order of posts (newest first)
+
+@login_required
+def LikeView(request, pk):
+    post = get_object_or_404(Post, id=request.POST.get("post_id"))
+    liked = False
+    if post.likes.filter(id=request.user.id).exists():
+        post.likes.remove(request.user)
+        liked = False
+    else:
+        post.likes.add(request.user)
+        liked = True
+
+    return HttpResponseRedirect(reverse('capture-home'))
 
 class PostDetailView(DetailView):
     model = Post

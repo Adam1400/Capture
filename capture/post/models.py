@@ -7,10 +7,9 @@ class Post(models.Model):
     comment = models.TextField()
     content = models.ImageField(default='placeholder.jpg', upload_to='post_pics')
     post_date = models.DateTimeField(default=timezone.now)
-
+    likes = models.ManyToManyField(User, related_name="user_likes")
 
     def __str__(self):
         return self.comment
 
-    def total_likes(self):
-        return self.likes.count()
+    

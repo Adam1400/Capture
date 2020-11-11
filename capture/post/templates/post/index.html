@@ -15,7 +15,23 @@
         <br>
         <a href="{% url 'post-detail' post.id %}"><img src="{{ post.content.url }}"></a>
         <h5 class="date">{{ post.post_date|date:"F d, Y" }}</h5>
+        
+        <form action="{% url 'like_post' post.pk %}" method="POST">
+            {% csrf_token %}
 
+            {% if liked %}
+                <button type="submit" name="post_id" value="{{ post.id }}"
+                class="btn btn-danger">UnLike</button>
+            {% else %}
+                <button type="submit" name="post_id" value="{{ post.id }}"
+                class="btn btn-primary">Like</button>
+            {% endif %}
+            
+            
+            - {{post.likes.count }} Likes
+
+
+        </form>
         <p>{{ post.comment }}</p>
         <hr>
     </div>
