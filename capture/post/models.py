@@ -8,9 +8,5 @@ class Post(models.Model):
     content = models.ImageField(default='placeholder.jpg', upload_to='post_pics')
     post_date = models.DateTimeField(default=timezone.now)
 
-
     def __str__(self):
         return self.comment
-
-    def total_likes(self):
-        return self.likes.count()
