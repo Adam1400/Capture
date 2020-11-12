@@ -18,7 +18,7 @@ Jessica Herold & Allen Adams
 ## Goal: Introduce stable Release/ work on new features in background
 * Core Features X
 * Stablility X
-* Bugs? X
+* Bugs X
 * New Features X
 
 * Implement User Stories X
