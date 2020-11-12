@@ -16,9 +16,20 @@ class PostListView(ListView):
     context_object_name = 'posts'
     ordering = ['-post_date'] # order of posts (newest first)
 
+    def get_context_data(self, *args, **kwargs):
+        context = super(PostListView, self).get_context_data(**kwargs)
+        
+        liked = False
+        
+        context.update({
+            'liked': liked,
+        })
+        return context
+
 @login_required
 def LikeView(request, pk):
     post = get_object_or_404(Post, id=request.POST.get("post_id"))
+    
     liked = False
     if post.likes.filter(id=request.user.id).exists():
         post.likes.remove(request.user)
@@ -27,6 +38,8 @@ def LikeView(request, pk):
         post.likes.add(request.user)
         liked = True
 
+
+    
     return HttpResponseRedirect(reverse('capture-home'))
 
 class PostDetailView(DetailView):
