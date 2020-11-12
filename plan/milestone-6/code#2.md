@@ -12,8 +12,8 @@ Jessica Herold & Allen Adams
 
 ### Milestone 6. First Code Release
 
-Role: Primary Programmer - Code - Allen Adams
-Role: Secondary Programmer - Code - Jessica Herold
+* Role: Primary Programmer - Code - Allen Adams
+* Role: Secondary Programmer - Code - Jessica Herold
 
 *Goal: Introduce stable Release/ work on new features in background
 * Core Features X
