@@ -131,6 +131,20 @@ img:hover{
 .post-head{
     display: inline-block;
 }
+
+.Star{
+    color: gold;
+    transition: 1.25s ease-in-out;
+}
+
+.Star:hover{
+    animation: spin 1.25s infinite ease-in-out; 
+}
+
+@keyframes spin {
+    0%  {-webkit-transform: rotate(0deg);}
+    100% {-webkit-transform: rotate(360deg);}   
+}
 /*****************************/
 
 /*SINGLE POST*/
@@ -144,7 +158,7 @@ img:hover{
 }
 
 .single-profile-bubble{
-    width: 30%;
+    width: 20%;
 }
 .single-profile-bubble:hover{
     width: 50%;
@@ -157,6 +171,37 @@ img:hover{
 .single-post-pic:hover{
     width:150%;
     overflow: none;
+}
+
+.line{
+    color: lightgray;
+    background-color: lightgrey;
+    width: 100%;
+}
+
+.starBTN{
+    color: transparent;
+    background-color: transparent;
+    border: none;
+}
+
+.filledStar{
+    color: gold;
+    transition: 0.2s ease-in-out;
+}
+
+.filledStar:hover{
+    color: red;
+    
+}
+
+.emptyStar{
+    color: grey;
+    transition: 0.2s ease-in-out;
+}
+.emptyStar:hover{
+    color: gold;
+
 }
 
 
