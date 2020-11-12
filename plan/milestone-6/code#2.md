@@ -1,4 +1,4 @@
-# Milestone 6. Finish Writing Code - Code
+# Milestone 6. Code Release - Code
 Jessica Herold & Allen Adams
 
 ## PROJECT INFO
@@ -10,10 +10,10 @@ Jessica Herold & Allen Adams
 
 * URL: https://github.com/Adam1400/cs350/blob/master/plan/milestone-6/code#2.md
 
-### Milestone 6. Finish Writing Code
+### Milestone 6. First Code Release
 
-Role: Primary Programmer - Code - Jessica Herold
-Role: Secondary Programmer - Code - Christopher Gaona
+Role: Primary Programmer - Code - Allen Adams
+Role: Secondary Programmer - Code - Jessica Herold
 
 Goal: Finish Writing Code
 
