@@ -16,10 +16,10 @@ Role: Primary Programmer - Code - Allen Adams
 Role: Secondary Programmer - Code - Jessica Herold
 
 *Goal: Introduce stable Release/ work on new features in background
-* Core Features
-* Stablility
-* Bugs?
-* New Features
+* Core Features X
+* Stablility X
+* Bugs? X
+* New Features X
 
 * Implement User Stories X
 * Test-driven workflow X
@@ -33,8 +33,3 @@ Role: Secondary Programmer - Code - Jessica Herold
 Coding is done in chunks with testing between. This insures that everything that is implemented in the project functions as intended.
 
 ### Implementation Cycle - Test, Fix, Extend, Improve
-
-### Implement all core features
-Users can now register an account on the website, and log in and log out of their accounts. There is a profile page where users can view all of their posts.
-
-### Finish Writing Code
