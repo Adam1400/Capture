@@ -15,7 +15,7 @@ Jessica Herold & Allen Adams
 * Role: Primary Programmer - Code - Allen Adams
 * Role: Secondary Programmer - Code - Jessica Herold
 
-*Goal: Introduce stable Release/ work on new features in background
+## Goal: Introduce stable Release/ work on new features in background
 * Core Features X
 * Stablility X
 * Bugs? X
