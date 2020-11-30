@@ -7,6 +7,8 @@ from django.forms import ModelForm
 from django.db import models
 from django.contrib.auth.models import User
 from django import forms
+from django.contrib.auth import authenticate, login
+
 
 
 # Registers an account with a username, password, and email address
@@ -17,7 +19,11 @@ def register(request):
             form.save()
             username = form.cleaned_data.get('username')
             messages.success(request, f'Account created for {username}!')
-            return redirect('login')
+            new_user = authenticate(username=form.cleaned_data['username'],
+                                    password=form.cleaned_data['password1'],
+                                    )
+            login(request, new_user)
+            return redirect('capture-home')
     else:
         form = UserRegisterForm()
     return render(request, 'users/register.html', {'form': form})

@@ -1,12 +1,15 @@
 from django.http import HttpResponse, HttpResponseRedirect, JsonResponse
 from django.shortcuts import render, get_object_or_404
-from django.views.generic import ListView, DetailView
+from django.views.generic import ListView, DetailView, DeleteView
 from django.forms import ModelForm
 from .models import Post
 from django.contrib.auth.models import User
 from django.urls import reverse, reverse_lazy
 from users.models import Profile
 from django.contrib.auth.decorators import login_required
+from datetime import datetime
+from django.utils import timezone
+from django.contrib import messages
 
 
 # load templates
@@ -33,9 +36,11 @@ def LikeView(request, pk):
     
     return HttpResponseRedirect(reverse('post-detail', args=[str(pk)]))
 
-class PostDetailView(DetailView):
+class PostDetailView(DetailView, DeleteView):
     model = Post
     template_name = 'post/post_detail.html'
+    success_url = '/'
+    
 
     def get_context_data(self, **kwargs):
         context = super(PostDetailView, self).get_context_data(**kwargs)
@@ -54,6 +59,12 @@ class PostDetailView(DetailView):
         })
         return context
 
+    def test_func(self):
+        post = self.get_object()
+        if self.request.user == post.user:
+            return True
+        return False
+
 
 @login_required  
 def post(request):
@@ -61,6 +72,7 @@ def post(request):
     if request.method == "POST":
         form = PostForm(request.POST, request.FILES)
         form.instance.user = request.user
+        form.post_date = timezone.localtime(timezone.now())
 
         if form.is_valid():
             form.save()
@@ -70,7 +82,6 @@ def post(request):
     
     context = {'form':form, 'title': 'Post'}
     return render(request, 'post/post.html', context )
-
 
 class PostForm(ModelForm):
     class Meta:
