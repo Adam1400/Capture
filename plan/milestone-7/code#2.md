@@ -56,6 +56,7 @@ All major prolems were fixed. However, some user suggestions have not been imple
 * 1) I would not be able to finish it by the end of milestine 7. 
 * 2) We want to differentiate ourself from instagram. 
 * 3) This feature was already redacted/ determined by a previous design desicion. 
+
 For those requesting an explone section, thats what the purpose of the main page is for. Here, you are able to see all user posts and explore at your leasure. In the future I may add a popular post section though! 
 
 ### Future Endeavors
