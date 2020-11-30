@@ -14,7 +14,7 @@
 * Address unmet issues...
 * Future Endeavors? 
 
-### UPDATE | 11-12-2020
+### UPDATE | 11-30-2020
 
 #### (ALL) complete
 * ~~Address Issues~~
