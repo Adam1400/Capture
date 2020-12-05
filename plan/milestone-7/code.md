@@ -1,43 +1,27 @@
-# Milestone 6. Code Release
+# Milestone 7. First Upgrade
 
-## Role: Coder - Code - Allen Adams
+## Role: Coder - Code - Jacob Schroeder
 
-### Goal: Introduce stable Release/ work on new features in background
+## PROJECT INFO
+* [Software Project Plan - Capture](https://capture350.herokuapp.com/)
 
-* Core Features 
-* Stablility 
-* Bugs?
-* New Features
+* Other Roles - [Requirements.md](requirements.md), [Design.md](design.md), [Code.md](code.md), [Code#2.md](code#2.md), [Test.md](test.md)
 
+* File: milestone-7/code.md
 
-### UPDATE | 11-12-2020
+* URL: https://github.com/Adam1400/cs350/blob/master/plan/milestone-7/code.md
 
-#### (ALL) complete
-* ~~Core Features~~ 
-* ~~Stablility~~
-    * Stable but a little slow on initial load
-* ~~Bugs~~
-    * Everything seems pretty air tight
-* ~~New Features~~
-    * likes
-    * see MY liked posts
-    * Follow? 
-    * Edit Post? 
+### Goal: Write Code - Fix Issues
 
-### CORE FEATURES
-All main features and implememnted and should be adiquite for a relase. The application serves its purpose and does everything a picture app should. Will present well for class demo next week.
-
-### STABILITY
-The application is currently in a stable state (on heroku). Its ready for a release! The only issues in terms of stabiulity is the speed it loads the front page... unfortunatly there is not alot we can do to speed up load times. That is determined by heroku and AWS. In the future we could implememnt a little splash screen that plays as the app starts. IT could act as a loading screen and it would hide the bad loading of pics. 
-
-### BUGS 
-This current release is stable on heroku. However the current build in development is a little buggy. Current inpmementation of likes break the site a bit. Just someting to look forward to... 
-
-### NEW FEATURES 
-Likes are a pain, we would need to implement an AJAX solution to make likes actualy work well. We may just scrap likes... we'll see. Following is similar to likes and would need an ajax responce to work well. We could implement these features under detail view but thats not as intuitive for the user. Edit post is the most feasable option for a new feature. Probaly the easiest to implement. Stay tuned. 
-
-
-
-
-
+* Close all remaining issues
+    - All issues have been responded to and closed.
+* Complete all missing tests
+* Release checklist
+    - [X] The website is accessible with no broken links.
+    - [X] The user can register an account, log in, and log out.
+    - [X] The user has a profile page where they can set and edit their profile picture.
+    - [X] The user can post images to the website's feed, alongside a comment and a timestamp of when the image was posted.
+    - [X] Users can delete their own posts.
+    - [X] Clicking on a post brings up a more detailed view.
+    - [X] Users can like posts made by other users, and a list of users who like the post is displayed on the detail view.
 
