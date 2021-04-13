@@ -2,7 +2,7 @@
 
 ### Managed by: Allen Adams, Jessica Torres, Jessica Herold, Chris Gaona, Jacob Schroeder
 
-## [Capture](https://capture350.herokuapp.com/)
+## [Capture](https://capture350.herokuapp.com/) (s3 depreciated | pictures disabled)
 
 
 ### Capture is a photo media gallery similar to Instagram or Google Photos
